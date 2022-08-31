@@ -1,0 +1,98 @@
+ /* body - This is a single line CSS comment*/
+
+        /*
+            This is a multi-line CSS
+            #FF4A4A
+            #FF9551
+            #6FEDD6
+            #B9FFF8
+
+            INSPIRATION FOR COLOR: https://www.oberlo.com/blog/color-psychology-color-meanings
+
+        */
+
+        * {
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: lightblue;
+            background-image: url("../Images/business.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            background-attachment: fixed;
+            color: black;
+            font-family: "Calibri", sans-serif;
+            margin-top: 10px;
+            margin-bottom: 0%;
+            
+            
+        }
+
+        header{
+            padding: 2% 5% 2%;
+        }
+        h1{
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: 50px;
+        }
+        p{
+            margin-left: 25px;
+        }
+        hr {
+            height: 4px;
+            width: 60%;
+            border-left: 0;
+            border-right: 0;
+            background-color: royalblue;
+         }
+         section{
+            margin-left: 20px;
+        
+         }
+        img{
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            border: 3px solid #000;
+
+        }
+        main{
+            padding: 0% 0%;
+        }
+
+        h3{
+           font-weight: 600;
+        }
+        .table_skills{
+            border-spacing: 5px;
+            /*border-spacing: 20px;*/
+        }
+       
+        th{
+            *font-weight: 500;
+            color: black;
+        }
+
+         td{
+            padding:5px 0 3px 2px;
+            /*padding-left: 100px;*/
+         }
+
+        .header_td--empty{
+            /* background-color: orange; */
+            padding-left: 120px;
+        }
+
+        .footer{
+            height: 15vh;
+            width: 67.6%;
+            background-color: rgb(22, 19, 19);
+            color: white;
+            text-align: center;
+            padding-top: 35px;
+        }

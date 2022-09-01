@@ -16,21 +16,24 @@
             margin: 0;
             box-sizing: border-box;
         }
-
-        body{
-            background-color: lightblue;
-            background-image: url("../Images/business.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 100% 100%;
-            background-attachment: fixed;
-            color: black;
-            font-family: "Calibri", sans-serif;
-            margin-top: 10px;
-            margin-bottom: 0%;
-            
-            
-        }
+/*******************************************BODY ELEMENT*******************************************/
+@media screen and (max-width:600px) {
+    body{
+        /*background-color: lightblue;*/
+        /*background-image: url("../Images/business.jpg");*/
+        background-image: linear-gradient(to right bottom, #ddb4a7e9, #74bccb8f), url("../images/business.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        color: black;
+        font-family: "Calibri", sans-serif;
+        margin-top: 10px;
+        margin-bottom: 0%;
+    }
+}
+/*******************************************HEADER SECTION*******************************************/      
+@media screen and (max-width:600px)
 
         header{
             padding: 2% 5% 2%;
